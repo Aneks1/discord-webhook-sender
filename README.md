@@ -1,24 +1,23 @@
-# webhook-sender
+# Discord Webhook Sender
 
-## Project setup
-```
-npm install
-```
+Ye, just a simple web application that sends messages as Discord webhooks.
+Don't ask about the logo i just made some random lines and BOOM! logo.
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+## Running locally
+I don't think i need to add this but...
 
-### Compiles and minifies for production
-```
-npm run build
-```
+- Clone the repository
 
-### Lints and fixes files
+- Install [Node.js](https://nodejs.org/en/download/) if you don't have it
+
+- Then install all the dependencies running
 ```
-npm run lint
+$ npm install
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+- To run the website just run
+```
+$ npm run serve
+```
+
+Now the website is running locally at http://localhost:3000/ (or in the port specified in `vue.config.js`)
