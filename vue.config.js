@@ -1,5 +1,5 @@
 module.exports = {
-    publicPath: '/discord-webhok-sender/',
+    publicPath: '/discord-webhook-sender/',
     devServer: {
         port: 3000
     }
