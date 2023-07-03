@@ -1,8 +1,8 @@
 <template>
     <div class="width-100 flex column justify-flex-start align-center animation2">
         <div class="width-30vw height-30vh position-fixed grey z-index-1 radius-20px flex column align-center justify-center animation1 padding-sides-10px box-sizing-border-box">
-            <span class="font-size-3vw color-white font-weight-600">Error!</span>
-            <span class="font-size-2vw color-white font-weight-500 text-center">{{ errorMsg }}</span>
+            <span class="font-size-4vh color-white font-weight-600">Error!</span>
+            <span class="font-size-3vh color-white font-weight-500 text-center">{{ errorMsg }}</span>
         </div>
     </div>
 </template>
@@ -19,8 +19,6 @@ export default defineComponent({
 </script>
 
 <style>
-    @import "../../public/main.css";
-
     @keyframes error {
         from { margin-top: -50vh; }
         to { margin-top: 5vh; }
